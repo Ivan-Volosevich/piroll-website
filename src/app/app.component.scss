@@ -1,0 +1,35 @@
+.wrapper {
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+
+        .nav{
+
+            a{
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-height: 200px;
+        background-color: rgb(70, 70, 70);
+        color: rgb(218, 218, 218);
+
+        .footer__nav{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .footer__networks{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+}
