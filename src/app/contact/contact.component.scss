@@ -1,0 +1,45 @@
+.container-contact{
+    display: flex;
+    
+    .info-contact{
+
+        h3{
+            font-weight: bold;
+        }
+
+        p{
+            color: #787878;
+        }
+
+        div{
+            display: flex;
+
+            :first-child{
+                font-weight: bold;
+                margin-right: 10px;
+            }
+
+            :last-child{
+                color: #787878;
+            }
+        }
+    }
+
+    .info-inputs{
+
+        :first-child{
+            margin-right: 100px;
+        }
+        
+        button{
+            color: #fff;
+            background-color: #10c9c3;
+            border: none;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 12px;
+            height: 54px;
+            width: 180px;
+        }
+    }
+}

@@ -1,8 +1,16 @@
+*{
+    font-family: montserrat;
+    max-width: 1348px;
+}
+
 .wrapper {
 
     .header{
         display: flex;
         justify-content: space-between;
+        height: 100px;
+        line-height: 100px;
+        background-color: #fff;
 
         .nav{
 
@@ -16,20 +24,31 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        max-height: 200px;
-        background-color: rgb(70, 70, 70);
-        color: rgb(218, 218, 218);
+        height: 284px;
+        max-height: 284px;
+        background-color: #141414;
+        color: rgb(188, 188, 188);
+        font-size: 15px;
 
         .footer__nav{
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
+            a{
+                text-decoration: none;
+                color: rgb(188, 188, 188);
+            }
         }
 
         .footer__networks{
             display: flex;
             flex-direction: column;
+
+            a{
+                text-decoration: none;
+                color: rgb(188, 188, 188);
+            }
         }
+              
     }
-    
 }
