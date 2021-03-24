@@ -30,6 +30,13 @@
         :first-child{
             margin-right: 100px;
         }
+
+        .row{
+
+            .col{
+                margin: 15px;
+            }
+        }
         
         button{
             color: #fff;
