@@ -1,7 +1,10 @@
 .container-contact{
     display: flex;
+    margin: 50px;
     
     .info-contact{
+        max-width: 420px;
+
 
         h3{
             font-weight: bold;
@@ -27,11 +30,17 @@
 
     .info-inputs{
 
+
         :first-child{
             margin-right: 100px;
         }
 
         .row{
+            margin: 20px;
+
+            :last-child{
+                height: 200px;
+            }
 
             .col{
                 margin: 15px;
@@ -39,6 +48,7 @@
         }
         
         button{
+            margin: 35px;
             color: #fff;
             background-color: #10c9c3;
             border: none;
